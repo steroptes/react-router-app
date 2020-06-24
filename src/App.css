@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.navbar{
+  display: flex;
+}
+.product-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-detail {
+  display: flex;
+  float: left;
+  flex-direction:Column ;
+  background-color: lightgray;
+  padding: 2em;
+  margin-left: 0;
+}
+
+.product-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+padding: 2em;}
